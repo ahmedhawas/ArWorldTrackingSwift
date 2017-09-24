@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import ARKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sceneView: ARSCNView!
+    let configuration = ARWorldTrackingConfiguration() // track devise relative to position
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
