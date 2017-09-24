@@ -20,13 +20,24 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKA-Pu-gxm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRv-qQ-Sat">
+                                <rect key="frame" x="24" y="617" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.97298749910822613" green="1" blue="0.96795660973274222" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eZI-SP-DHT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="43I-1y-TgD"/>
-                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5oQ-Xe-Zqc"/>
-                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BqG-eg-BFp"/>
-                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DjS-Me-fKf"/>
+                            <constraint firstItem="IRv-qQ-Sat" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="4js-D1-9iO"/>
+                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6YJ-cl-mTA"/>
+                            <constraint firstAttribute="bottom" secondItem="IRv-qQ-Sat" secondAttribute="bottom" constant="20" symbolic="YES" id="FYn-AR-4mT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IRv-qQ-Sat" secondAttribute="trailing" constant="271" id="Zee-xL-SEx"/>
+                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ex6-CJ-w3e"/>
+                            <constraint firstItem="AKA-Pu-gxm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lgh-JN-ECd"/>
+                            <constraint firstAttribute="trailing" secondItem="AKA-Pu-gxm" secondAttribute="trailing" id="vQu-T9-zwc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
